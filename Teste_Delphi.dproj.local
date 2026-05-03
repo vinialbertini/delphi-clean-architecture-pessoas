@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2026/05/01 09:38:43.000.487,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/05/01 09:46:04.000.846,C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Testes Desbravador\UPrincipal.dfm</Transaction>
+    <Transaction>2026/05/01 09:46:04.000.846,C:\Users\PC\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Testes Desbravador\UPrincipal.pas</Transaction>
+    <Transaction>2026/05/01 09:46:14.000.714,C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Testes Desbravador\Teste_Delphi.dproj</Transaction>
+    <Transaction>2026/05/01 10:31:47.000.327,=C:\Testes Desbravador\Unit1.pas</Transaction>
+    <Transaction>2026/05/01 10:32:19.000.672,C:\Testes Desbravador\uConnectionFactory.pas=C:\Testes Desbravador\Unit1.pas</Transaction>
+    <Transaction>2026/05/01 10:50:50.000.089,=C:\Testes Desbravador\Unit1.pas</Transaction>
+    <Transaction>2026/05/01 10:52:07.000.529,C:\Testes Desbravador\src\uEnderecoModel.pas=C:\Testes Desbravador\Unit1.pas</Transaction>
+    <Transaction>2026/05/01 10:52:27.000.783,=C:\Testes Desbravador\Unit1.pas</Transaction>
+    <Transaction>2026/05/01 10:52:47.000.908,C:\Testes Desbravador\src\uPessoaModel.pas=C:\Testes Desbravador\Unit1.pas</Transaction>
+    <Transaction>2026/05/01 10:54:32.000.852,=C:\Testes Desbravador\Unit1.pas</Transaction>
+    <Transaction>2026/05/01 10:55:11.000.688,C:\Testes Desbravador\src\Repositories\uPessoaRepository.pas=C:\Testes Desbravador\Unit1.pas</Transaction>
+    <Transaction>2026/05/01 11:03:57.000.116,=C:\Testes Desbravador\src\Models\uEnderecoModel.pas</Transaction>
+    <Transaction>2026/05/01 11:03:58.000.448,=C:\Testes Desbravador\src\Models\uPessoaModel.pas</Transaction>
+    <Transaction>2026/05/01 11:04:53.000.757,=C:\Testes Desbravador\Unit1.pas</Transaction>
+    <Transaction>2026/05/01 11:05:33.000.611,C:\Testes Desbravador\Unit1.pas=C:\Testes Desbravador\src\Services\uPessoaService.pas</Transaction>
+    <Transaction>2026/05/01 11:21:29.000.241,=C:\Testes Desbravador\Unit1.pas</Transaction>
+    <Transaction>2026/05/01 11:21:50.000.941,C:\Testes Desbravador\Unit1.pas=C:\Testes Desbravador\src\Repositories\uEnderecoRepository.pas</Transaction>
+    <Transaction>2026/05/01 11:22:10.000.679,=C:\Testes Desbravador\Unit1.pas</Transaction>
+    <Transaction>2026/05/01 11:22:33.000.508,C:\Testes Desbravador\Unit1.pas=C:\Testes Desbravador\src\Services\uViaCepService.pas</Transaction>
+    <Transaction>2026/05/03 00:03:49.009,C:\Testes Desbravador\src\Services\uApiCepService.pas=C:\Testes Desbravador\src\Services\uViaCepService.pas</Transaction>
+  </Transactions>
+</BorlandProject>
