@@ -8,7 +8,7 @@ Boas práticas consideradas
 #
 - Clean Code; 
 - Padrões de Projeto; 
-- P.O.O.; 
+- POO; 
 - Herança, encapsulamento, polimorfismo; 
 - Projeto 2 ou 3 camadas (recomendado fazer 3 camadas); 
 - Tratamento adequado em criar e destruir objetos; 
