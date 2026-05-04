@@ -41,7 +41,7 @@ begin
     PgDriverLink := TFDPhysPgDriverLink.Create(nil);
     //PgDriverLink.BaseDriverID := 'PG';
     PgDriverLink.VendorLib := 'C:\Program Files\PostgreSQL\15\bin\libpq.dll';
-    //PgDriverLink.VendorLib := 'C:\Testes Desbravador\Win64\Debug\libpq.dll';
+    //PgDriverLink.VendorLib := 'C:\Testes\Win64\Debug\libpq.dll';
   end;
 end;
 
