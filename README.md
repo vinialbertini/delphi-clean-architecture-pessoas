@@ -82,18 +82,14 @@ Tabelas: Pessoa e Endereco
 #
 Métodos:
 #
-o
 Insert
-o
-o
+#
 Update
-o
-o
+#
 Delete
-o
-o
+#
 Insert em lote: lista de pessoas (considerando que essa lista poderá ter 50.000 registros. Adotar uma estratégia para que a inserção desses registros seja performática).
-o
+#
 2.2 Desenvolver rotina utilizando Threads 
 #
 Objetivo é atualizar os endereços das pessoas cadastradas
