@@ -16,7 +16,10 @@ Orientações Gerais: 
 #
 Observações quanto ao formato: 
 # 
+
 Orientações Técnicas: 
+#
+
 1. Criar banco de dados com estrutura do arquivo abaixo (preferencialmente em PostgreSQL): 
 #  
 CREATE TABLE pessoa ( 
