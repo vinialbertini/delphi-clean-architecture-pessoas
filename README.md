@@ -14,11 +14,11 @@ Orientações Gerais: 
 - Utilização de recursos mais no Delphi (Generics, Threads). 
   
 #
-Observações quanto ao formato de entrega: 
+Observações quanto ao formato: 
 # 
 Orientações Técnicas: 
 1. Criar banco de dados com estrutura do arquivo abaixo (preferencialmente em PostgreSQL): 
-  
+#  
 CREATE TABLE pessoa ( 
     idpessoa bigserial NOT NULL, 
     flnatureza int2 NOT NULL, 
@@ -28,7 +28,7 @@ CREATE TABLE pessoa ( 
     dtregistro date NULL, 
     CONSTRAINT pessoa_pk PRIMARY KEY (idpessoa)
 ); 
-  
+#  
 CREATE TABLE endereco ( 
     idendereco bigserial NOT NULL, 
     idpessoa int8 NOT NULL, 
@@ -36,8 +36,9 @@ CREATE TABLE endereco ( 
     CONSTRAINT endereco_pk PRIMARY KEY (idendereco), 
     CONSTRAINT endereco_fk_pessoa FOREIGN KEY (idpessoa) REFERENCES pessoa(idpessoa) ON DELETE cascade 
 ); 
+#
 CREATE INDEX endereco_idpessoa ON endereco (idpessoa); 
-  
+#  
 CREATE TABLE endereco_integracao ( 
     idendereco bigint NOT null, 
     dsuf varchar(50) NULL, 
@@ -48,7 +49,7 @@ CREATE TABLE endereco_integracao ( 
     CONSTRAINT enderecointegracao_pk PRIMARY KEY (idendereco), 
     CONSTRAINT enderecointegracao_fk_endereco FOREIGN KEY (idendereco) REFERENCES endereco(idendereco) ON DELETE cascade 
 ); 
-  
+#  
 2 Definir arquitetura do sistema em três camadas: 
 #
 Comunicação Rest com JSON entre aplicação Cliente / Servidor;
