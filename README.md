@@ -4,7 +4,8 @@ Orientações Gerais: 
 - Ambiente uma versão do Delphi Seattle ou superior. 
 - Acesso a um Banco de Dados (de preferência PostgresSQL). 
   
-Todas as boas práticas de desenvolvimento serão consideradas na prova: 
+Boas práticas consideradas
+#
 - Clean Code; 
 - Padrões de Projeto; 
 - P.O.O.; 
@@ -21,7 +22,9 @@ Orientações Técnicas: 
 #
 
 1. Criar banco de dados com estrutura do arquivo abaixo (preferencialmente em PostgreSQL): 
+
 #  
+
 CREATE TABLE pessoa ( 
     idpessoa bigserial NOT NULL, 
     flnatureza int2 NOT NULL, 
